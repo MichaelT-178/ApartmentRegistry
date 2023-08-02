@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.CreateAccountController" fx:id="createAccountRootPane">
+   <children>
+      <Label layoutX="235.0" layoutY="27.0" text="Create Account">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="141.0" layoutY="67.0" text="First Name" />
+      <TextField layoutX="140.0" layoutY="85.0" fx:id="firstNameTextField" /> <!-- style="-fx-border-style: solid; -fx-border-color: #DEAA00;"/> -->
+      
+      <Label layoutX="315.0" layoutY="67.0" text="Last Name" />
+      <TextField layoutX="315.0" layoutY="85.0" fx:id="lastNameTextField" /> <!-- style="-fx-border-style: solid; -fx-border-color: #DEAA00;" /> -->
+      
+      <Label layoutX="141.0" layoutY="120.0" text="Email" />
+      <TextField layoutX="140.0" layoutY="138.0" prefHeight="26.0" prefWidth="160.0" fx:id="emailTextField" /> <!-- style="-fx-border-style: solid; -fx-border-color: #DEAA00;" /> -->
+      
+      <Label layoutX="315.0" layoutY="120.0" text="Phone Number" />
+      <TextField layoutX="315.0" layoutY="138.0" fx:id="phoneNumberTextField" /><!-- style="-fx-border-style: solid; -fx-border-color: #DEAA00;" /> -->
+      
+	  <Label layoutX="142.0" layoutY="171.0" text="Username" />
+      <TextField layoutX="140.0" layoutY="189.0" prefHeight="26.0" prefWidth="337.0" fx:id="usernameTextField" /><!-- style="-fx-border-style: solid; -fx-border-color: #DEAA00;" /> -->
+      
+      <Label layoutX="142.0" layoutY="224.0" text="Password" />
+      <TextField layoutX="140.0" layoutY="242.0" prefHeight="26.0" prefWidth="337.0" fx:id="passwordTextField" /><!-- style="-fx-border-style: solid; -fx-border-color: #DEAA00;"/> -->
+      
+      <Label layoutX="142.0" layoutY="273.0" text="Re-enter Password" />
+      <TextField layoutX="140.0" layoutY="291.0" prefHeight="26.0" prefWidth="337.0" fx:id="reEnteredPWTextField" /><!-- style="-fx-border-style: solid; -fx-border-color: #DEAA00;"/> -->
+      
+      <Button layoutX="269.0" layoutY="332.0" mnemonicParsing="false" text="Sign Up" onAction="#createAccountPressed" />
+      <Hyperlink layoutX="275.5" layoutY="364.0" text="Cancel" fx:id="cancelHyperLinkFieldOne" onAction="#signInPageCancelPressed" />
+   </children>
+</AnchorPane>

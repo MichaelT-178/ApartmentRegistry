@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="mapViewRootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MapViewController">
+   <children>
+      <ImageView fitHeight="350.0" fitWidth="580.0" layoutX="10.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MapPic.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonOne" layoutX="16" layoutY="176.0" mnemonicParsing="false" text="1" style="-fx-background-color: #AB1AD7; -fx-text-fill: #FFFFFF; -fx-border-color: #000000;" />
+      <Button fx:id="buttonTwo" layoutX="235.5" layoutY="184.0" mnemonicParsing="false" text="2" style="-fx-background-color: #17C1E4; -fx-text-fill: #FFFFFF; -fx-border-color: #000000;" />
+      <Button fx:id="buttonThree" layoutX="263.0" layoutY="238.0" mnemonicParsing="false" text="3" style="-fx-background-color: #15D179; -fx-text-fill: #FFFFFF; -fx-border-color: #000000;" />
+      <Button fx:id="buttonFour" layoutX="509.0" layoutY="314.0" mnemonicParsing="false" text="4" style="-fx-background-color: #E45417; -fx-text-fill: #FFFFFF; -fx-border-color: #000000;" />
+      <Button fx:id="buttonFive" layoutX="323.0" layoutY="132.0" mnemonicParsing="false" text="5" style="-fx-background-color: #EF1749; -fx-text-fill: #FFFFFF; -fx-border-color: #000000;" />
+      <Button fx:id="buttonSix" layoutX="347.5" layoutY="144.5" mnemonicParsing="false" text="6" style="-fx-background-color: #EFBC17; -fx-text-fill: #FFFFFF; -fx-border-color: #000000;" />
+      <Button fx:id="buttonSeven" layoutX="348.0" layoutY="111.0" mnemonicParsing="false" text="7" style="-fx-background-color: #324EAC; -fx-text-fill: #FFFFFF; -fx-border-color: #000000;" />
+      <Button fx:id="buttonEight" layoutX="365.5" layoutY="131.5" mnemonicParsing="false" text="8" style="-fx-background-color: #EF17E8; -fx-text-fill: #FFFFFF; -fx-border-color: #000000;" />
+      <Label layoutX="258.0" layoutY="25.0" text="Map View">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="backHyperLink" layoutX="14.0" layoutY="21.0" onAction="#backToMainLinkPressed" text="← Go Back">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</Pane>
