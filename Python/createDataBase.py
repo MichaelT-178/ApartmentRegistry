@@ -1,5 +1,5 @@
-import os
-from random import randint;os.system("clear")
+import os;os.system("clear")
+from random import randint
 
 def getIds():
     return [i for i in range(1, 407)]
@@ -214,7 +214,7 @@ def getOrderHistory():
     return orders
 
 
-the_file = "/Users/michaeltotaro/eclipse-workspace/ApartmentRegistry/src/main/UserDB.txt"
+the_file = "./eclipse-workspace/ApartmentRegistry/src/main/UserDB.txt"
 
 with open(the_file, 'w') as wfile:
     for i in range(406):

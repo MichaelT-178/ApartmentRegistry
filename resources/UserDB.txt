@@ -404,4 +404,3 @@
 404,Willow,Gallagher,willowgallagher5553@gmail.com,WillowG,bUHbKw4890!,719-968-8626,Cypress Pointe,Room 26,Cypress Pointe%Gold%5208
 405,Isador,Fitzgerald,isadorfitzgerald4187@outlook.com,IsadorF,mdXjl024*,602-376-6414,Cypress Pointe,Room 27,Cypress Pointe%Deluxe%3653
 406,Elsa,Schilder,elsaschilder9156@uncw.edu,ElsaS,miVyMxt7260!,309-625-7306,Cypress Pointe,Room 28,Cypress Pointe%Deluxe%3653407407407
-407,Scott,Totaro,sTotaro@gmail.com,sTotaro,poptart781!,871-981-1187,Wilmington Commons,Room 54,Wilmington Commons%Gold%5373
