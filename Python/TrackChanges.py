@@ -4,9 +4,7 @@ import os; os.system('clear')
 def c(amount_depricated):
     return "DECREMENTED" if amount_depricated else "INCREMENTED"
 
-f = "./eclipse-workspace/ApartmentRegistry/src/main/UserDB.txt"
-#f = "./ApartmentRegistry/resources/UserDB.txt"
-
+f = "../../eclipse-workspace/ApartmentRegistry/src/main/UserDB.txt"
 
 creek = 0
 cove = 0
@@ -64,8 +62,8 @@ with open(f, 'r') as file:
         print("•None")
 
 
-ftwo = "./eclipse-workspace/ApartmentRegistry/src/main/ApartmentData.txt"
-#ftwo = "./ApartmentRegistry/resources/ApartmentData.txt"
+ftwo = "../../eclipse-workspace/ApartmentRegistry/src/main/ApartmentData.txt"
+
 
 total = 0
 print("\n\nModified Values in ApartmentData.txt")
