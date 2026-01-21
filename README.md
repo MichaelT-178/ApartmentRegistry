@@ -7,3 +7,4 @@ I wrote 100% of the code for this project (ignore the author tags) and designed 
 
 The python files weren't part of the final grade, they we're just used to create and analyze the "database" txt files.
 
+An example of a finite state machine can be found in this [file](https://github.com/MichaelT-178/ApartmentRegistry/blob/main/src/FormValidator.java)
